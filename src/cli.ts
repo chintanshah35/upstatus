@@ -33,7 +33,7 @@ async function main() {
     console.clear()
   }
   
-  badge('UpStatus v0.1.0', 'cyan')
+  badge('UpStatus v0.2.0', 'cyan')
   console.log('')
 
   const manager = new MonitorManager()

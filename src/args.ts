@@ -2,7 +2,7 @@ import { log } from 'logfx'
 import type { ParsedArgs } from './utils'
 import { validateUrl, validateInterval } from './utils'
 
-const VERSION = '0.1.0'
+const VERSION = '0.2.0'
 
 export function parseArgs(args: string[]): ParsedArgs {
   const result: ParsedArgs = {
