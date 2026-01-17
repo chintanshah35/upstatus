@@ -20,7 +20,7 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@types/node": "^20.10.0",
+    "@types/node": "^25.0.9",
     "@vitest/coverage-v8": "^1.2.0",
     "tsup": "^8.0.1",
     "tsx": "^4.7.0",
