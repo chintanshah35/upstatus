@@ -12,8 +12,8 @@ describe('normalizeUrl', () => {
     expect(normalizeUrl('api.example.com/health')).toBe('https://api.example.com/health')
   })
 
-  it('throws on invalid url', () => {
-    expect(() => normalizeUrl('not a url at all !@#$')).toThrow()
+  it('throws on truly invalid url', () => {
+    expect(() => normalizeUrl('://missing-host')).toThrow()
   })
 })
 

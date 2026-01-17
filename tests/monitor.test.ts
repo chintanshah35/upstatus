@@ -30,7 +30,7 @@ describe('Monitor', () => {
     })
 
     it('validates url', () => {
-      expect(() => new Monitor({ url: 'not-a-url' })).toThrow()
+      expect(() => new Monitor({ url: 'ftp://example.com' })).toThrow()
     })
 
     it('normalizes url without protocol', () => {
