@@ -4,7 +4,9 @@
 
 [![npm version](https://img.shields.io/npm/v/upstatus.svg)](https://www.npmjs.com/package/upstatus)
 [![npm downloads](https://img.shields.io/npm/dm/upstatus.svg)](https://www.npmjs.com/package/upstatus)
+[![build](https://github.com/chintanshah35/upstatus/actions/workflows/test-suite.yml/badge.svg)](https://github.com/chintanshah35/upstatus/actions)
 [![node](https://img.shields.io/node/v/upstatus.svg)](https://nodejs.org)
+[![bundle size](https://img.shields.io/bundlephobia/minzip/upstatus)](https://bundlephobia.com/package/upstatus)
 [![license](https://img.shields.io/npm/l/upstatus.svg)](https://github.com/chintanshah35/upstatus/blob/main/LICENSE)
 
 ## Install
