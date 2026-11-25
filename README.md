@@ -1,6 +1,11 @@
 # upstatus
 
-> Simple uptime monitoring CLI
+Simple uptime monitoring CLI. No SaaS required.
+
+```bash
+npx upstatus https://api.example.com
+npx upstatus
+```
 
 [![npm version](https://img.shields.io/npm/v/upstatus.svg)](https://www.npmjs.com/package/upstatus)
 [![npm downloads](https://img.shields.io/npm/dm/upstatus.svg)](https://www.npmjs.com/package/upstatus)
@@ -183,6 +188,8 @@ const csv = exportToCsv(stats)
 | `up` | Response received with expected status code |
 | `degraded` | Response received but slower than threshold |
 | `down` | Request failed or unexpected status code |
+
+If this helped you monitor an API, star the repo so others can find it.
 
 ## License
 
